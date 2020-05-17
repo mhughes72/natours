@@ -1,0 +1,24 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhughes72/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.0",
+    "style-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "buffer-from": "^1.1.1",
+    "source-map-support": "^0.5.19"
+  },
+  "description": ""
+}
